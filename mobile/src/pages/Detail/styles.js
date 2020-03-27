@@ -38,6 +38,7 @@ export default StyleSheet.create({
 
     contactBox: {
         padding: 24,
+        paddingTop: 14,
         borderRadius: 8,
         backgroundColor: '#fff',
         marginBottom: 16,
@@ -47,7 +48,7 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 20,
         color: '#737380',
-        marginTop: 16
+        marginTop: 14
     },
 
     heroDescription: {
