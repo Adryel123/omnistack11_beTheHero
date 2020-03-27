@@ -6,7 +6,6 @@ module.exports = {
         const { page = 1 } = request.query
 
         const [count] = await connecion('incidents').count()
-        console.log(count)
 
         const incidents = await connecion('incidents')
             .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
